@@ -10,6 +10,7 @@ end
 
 group :production do
 	gem 'pg'
+	gem 'rails_12factor', '0.0.2'
 end
 #gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -45,3 +46,4 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'unicorn'
